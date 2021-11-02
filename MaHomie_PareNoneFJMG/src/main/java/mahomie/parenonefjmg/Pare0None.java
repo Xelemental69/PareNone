@@ -33,6 +33,8 @@ public class Pare0None {
 
             switch (choice) {
 
+                case 'a':
+                    
                 case 'A':
                     do {//Pedimos manualmente los dedos (un nº de dedos
                         //por jugador)
@@ -42,16 +44,18 @@ public class Pare0None {
                         System.out.println("Jugador 2, ¿cuántos dedos contamos?");
                         j2 = entry.nextInt();
 
-                        if (j1 < 11 || j1 < 0 || j2 < 11 || j2 < 0) {
+                        if (j1 > 11 || j1 < 0 || j2 > 11 || j2 < 0) {
                             System.out.println("ERROR DE INPUT");
                         }
 
                         //"¿Lo introducido se sale del rango (0-10)? 
                         //PERMÍTEME QUE INSISTA"
-                    } while (j1 < 11 || j1 < 0 || j2 < 11 || j2 < 0);
+                    } while (j1 > 11 || j1 < 0 || j2 > 11 || j2 < 0);
 
                     break;
 
+                case 'b':
+                    
                 case 'B':
 
                     System.out.println("De acuerdo, se generarán los números "
@@ -74,7 +78,7 @@ public class Pare0None {
             }
 
             //"¿No coincide la opción con lo introducido? PERMÍTEME QUE INSISTA"
-        } while (choice != 'A' && choice != 'B');
+        } while (choice != 'A' && choice != 'B' && choice != 'a' && choice != 'b');
 
         //Se suman los números y se muestra si ha salido PARES o NONES
         n = j1 + j2;
