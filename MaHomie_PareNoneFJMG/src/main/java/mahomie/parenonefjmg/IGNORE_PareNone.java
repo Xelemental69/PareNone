@@ -10,7 +10,7 @@ import java.util.*;
  *
  * @author Xelemental
  */
-public class PareNone {
+public class IGNORE_PareNone {
 
     /**
      * @param args the command line arguments
@@ -79,6 +79,7 @@ public class PareNone {
         //Se suman los números y se muestra si ha salido PARES o NONES
         n = j1 + j2;
 
+        System.out.println("La suma es " + n);
         
 
         if (n % 2 == 0) {
