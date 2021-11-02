@@ -8,7 +8,7 @@ import java.util.*;
 
 /**
  *
- * @author fco-j
+ * @author Xelemental
  */
 public class Pare0None {
 
