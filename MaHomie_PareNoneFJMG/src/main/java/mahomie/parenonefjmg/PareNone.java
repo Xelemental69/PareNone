@@ -79,7 +79,7 @@ public class PareNone {
         //Se suman los números y se muestra si ha salido PARES o NONES
         n = j1 + j2;
 
-        System.out.println("La suma es " + n);
+        
 
         if (n % 2 == 0) {
             System.out.println("Según el resultado, ha salido PARES");
