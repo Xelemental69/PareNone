@@ -6,12 +6,14 @@ package mahomie.parenonefjmg;
 
 import java.util.*;
 
+
 /**
  * GitHub (historial de versiones:
  * https://github.com/Xelemental69/PareNone/commits/master/MaHomie_PareNoneFJMG/src/main/java/mahomie/parenonefjmg/Pare0None.java
  *
  * @author Xelemental
  */
+
 public class Pare0None {
 
     /**
@@ -24,7 +26,11 @@ public class Pare0None {
         int j1 = 0, j2 = 0, n;
         char choice;
         Random slap = new Random();
-
+        
+        
+        
+        
+        
         do {
 
             //Pedimos por pantalla si los números son introducidos o RNG
