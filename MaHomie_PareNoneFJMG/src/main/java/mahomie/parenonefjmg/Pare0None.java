@@ -7,7 +7,9 @@ package mahomie.parenonefjmg;
 import java.util.*;
 
 /**
- * GitHub (historial de versiones: https://github.com/Xelemental69/PareNone/commits/master/MaHomie_PareNoneFJMG/src/main/java/mahomie/parenonefjmg/Pare0None.java
+ * GitHub (historial de versiones:
+ * https://github.com/Xelemental69/PareNone/commits/master/MaHomie_PareNoneFJMG/src/main/java/mahomie/parenonefjmg/Pare0None.java
+ *
  * @author Xelemental
  */
 public class Pare0None {
@@ -17,12 +19,12 @@ public class Pare0None {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+
         Scanner entry = new Scanner(System.in);
         int j1 = 0, j2 = 0, n;
         char choice;
         Random slap = new Random();
-        
+
         do {
 
             //Pedimos por pantalla si los números son introducidos o RNG
@@ -34,7 +36,7 @@ public class Pare0None {
             switch (choice) {
 
                 case 'a':
-                    
+
                 case 'A':
                     do {//Pedimos manualmente los dedos (un nº de dedos
                         //por jugador)
@@ -55,7 +57,7 @@ public class Pare0None {
                     break;
 
                 case 'b':
-                    
+
                 case 'B':
 
                     System.out.println("De acuerdo, se generarán los números "
@@ -84,14 +86,13 @@ public class Pare0None {
         n = j1 + j2;
 
         System.out.println("La suma es " + n);
-        
 
         if (n % 2 == 0) {
             System.out.println("Según el resultado, ha salido PARES");
         } else {
             System.out.println("Según el resultado, ha salido NONES");
         }
-        
+
     }
-    
+
 }
